@@ -47,18 +47,21 @@
   <p>
     x plus y is
     <script>
+      document.write(x+y);
 
     </script>
   </p>
   <p>
     x times y is
     <script>
+      document.write(x*y);
 
     </script>
   </p>
   <p>
     y divided by z is
     <script>
+      document.write(y/z);
 
     </script>
   </p>
@@ -66,11 +69,28 @@
   <h2>More practice</h2>
   <p>Create 3 more variables and use them in script tags below. Choose the names of the variables yourself.</p>
   <script>
+
+    let x;
+    let y;
+    let z;
+
+    x = 3;
+    y = 7;
+    z = 10;
     
   </script>
-  <p></p>
-  <p></p>
-  <p></p>
+  <p>x plus z is</p>
+  <script>
+    document.write(x+z);
+  </script>
+  <p>y minus x is</p>
+  <script>
+    document.write(y-x);
+  </script>
+  <p>y plus x is</p>
+  <script>
+    document.write(y+x);
+  </script>
   
 </body>
 </html>
